@@ -7,10 +7,10 @@ def reverse_each_word(phrase)
 end
 
 def reverse_each_word(phrase)
-  
- phrase.split(" ").collect do |word|
+  phrase_array = phrase.split(" ") #["Hello" "there," "and" "how" "are" "you?"]
+ phrase_array.collect do |word|
 word.reverse
 end
-phrase.join(' ')
+phrase_array.join(' ')
 end
 
