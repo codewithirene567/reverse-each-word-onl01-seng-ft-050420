@@ -2,9 +2,9 @@ def reverse_each_word(phrase)
   backwards = []
   phrase.split(" ").each do |word|
     backwards << phrase.reverse
-    [phrase].join(' ')
+    word.join(' ')
   end
-   phrase.join(' ')
+   word.join(' ')
 end
 
 
