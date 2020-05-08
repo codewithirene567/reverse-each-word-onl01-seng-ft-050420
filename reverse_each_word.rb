@@ -6,10 +6,3 @@ def reverse_each_word(phrase)
    backwards.join(' ')
 end
 
-def reverse_each_word(phrase)
- phrase.split(" ").collect do |word|
-phrase.reverse
-end
-phrase.join(' ')
-end
-
