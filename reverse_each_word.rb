@@ -9,7 +9,7 @@ end
 def reverse_each_word(phrase)
  phrase.split(" ").collect do |word|
 phrase.reverse
-phrase.join(' ')
 end
+
 end
 
