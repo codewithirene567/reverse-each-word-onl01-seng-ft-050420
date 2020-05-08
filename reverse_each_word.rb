@@ -9,6 +9,7 @@ end
 def reverse_each_word(phrase)
   phrase_array = phrase.split(" ") #["Hello" "there," "and" "how" "are" "you?"]
  phrase_array.collect do |word|
+   collected_phrase = 
 word.reverse
 end
 phrase_array.join(' ')
